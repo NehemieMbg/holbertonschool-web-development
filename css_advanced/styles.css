@@ -1,0 +1,137 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* NAVBAR */
+.nav {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+  width: 100%;
+  align-items: center;
+}
+
+.logo {
+  padding-left: 128px;
+}
+
+.link {
+  padding-right: 128px;
+  width: 224px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link a {
+  color: #ffffff;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/* HERO SECTION */
+
+.hero {
+  min-height: 1093px;
+  background-size: cover;
+  background-image: url("./assets/background.png");
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .title h1 {
+  margin: 0;
+  padding-top: 145px;
+  font-size: 120px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.hero .title p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0;
+  word-spacing: 56px;
+  margin-bottom: 38px;
+}
+
+.hero .title button {
+  background-color: #c271ff;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 9999px;
+  padding: 16px 24px 16px 24px;
+  border: none;
+  box-shadow: 0 0 20px #3f3f3f;
+}
+
+.hero .main_part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main_part h2 {
+  color: #ffffff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 32;
+  font-weight: normal;
+  margin-bottom: 84px;
+}
+
+.main_part h2 .highlight {
+  color: #c271ff;
+  font-weight: bold;
+}
+
+.hero .blocks {
+  width: 1009px;
+  height: 237px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  color: #ffffff;
+}
+
+.hero .blocks h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.pro {
+  text-align: center;
+  width: 150px;
+}
+
+.pro h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.pro p {
+  font-size: 16px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: italic;
+}
+
+.pro img {
+  border-radius: 100%;
+  margin-bottom: 16px;
+}
