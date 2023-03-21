@@ -177,3 +177,7 @@ body {
   width: 730px;
   height: 158px;
 }
+
+.testimonial .text {
+  font-style: italic;
+}
