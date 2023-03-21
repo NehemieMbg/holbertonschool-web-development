@@ -135,3 +135,45 @@ body {
   border-radius: 100%;
   margin-bottom: 16px;
 }
+
+/* QUOTES SECTION
+ */
+
+.testimonials_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 22px;
+  color: #ffffff;
+  background-color: #c271ff;
+  height: 392px;
+}
+
+.testimonial {
+  width: 943px;
+  height: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonial .avatar {
+  width: 160px;
+  height: 160px;
+  border-radius: 100%;
+  object-fit: fill;
+}
+
+.testimonial blockquote {
+  margin: 0;
+}
+
+.testimonial .author {
+  font-weight: bold;
+}
+
+.testimonial .quote {
+  width: 730px;
+  height: 158px;
+}
