@@ -396,12 +396,11 @@ body {
 }
 
 .footer-content-container {
-  padding-top: 70px;
-  padding-bottom: 20px;
   display: flex;
   height: 100%;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: end;
+  gap: 58px;
   align-items: center;
 }
 
@@ -422,4 +421,5 @@ body {
 .footer-content-container p {
   color: #ffffff;
   opacity: 0.33;
+  padding-bottom: 20px;
 }
