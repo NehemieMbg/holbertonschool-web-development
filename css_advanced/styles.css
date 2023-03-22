@@ -148,6 +148,7 @@ body {
   color: #ffffff;
   background-color: #c271ff;
   height: 392px;
+  margin-bottom: 64px;
 }
 
 .testimonial {
@@ -180,4 +181,245 @@ body {
 
 .testimonial .text {
   font-style: italic;
+}
+
+/* VIDEO SECTION */
+
+.video_section {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 450px;
+}
+
+.video_section .title {
+  font-weight: normal;
+  font-size: 32px;
+}
+
+.video_section .title .highlight {
+  color: #c271ff;
+  font-weight: bold;
+}
+
+.video_list {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  align-items: center;
+  width: 1228px;
+  height: 335px;
+}
+
+.video_list .items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 255px;
+  height: 335px;
+}
+
+.video_list .items h2 {
+  font-size: 16px;
+}
+
+.video_list .items h3 {
+  font-size: 14px;
+  color: #c271ff;
+  font-weight: normal;
+}
+
+.video_list .items p {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.video_list .items .avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+/* .video_list .items .rating, */
+.video_list .items .text,
+.video_list .items .author,
+.video_list .items h2,
+.video_list .items .rating {
+  padding: 0 8px 0 8px;
+}
+
+.video_list .items .rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.video_list .items .rating p {
+  font-size: 14px;
+  color: #c271ff;
+}
+
+.video_list .items .author {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.play-btn {
+  position: absolute;
+  width: 64px;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MEMBERSHIP SECTION */
+
+.membership {
+  margin-top: 90px;
+  background-color: #071629;
+  height: 502px;
+  width: auto;
+  color: #ffffff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.membership-title {
+  font-weight: normal;
+  font-size: 32px;
+}
+
+.membership-title span {
+  color: #c271ff;
+  font-weight: bold;
+}
+
+.membership-blocks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 76px;
+}
+
+.membership-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.membership-block img {
+  width: 43px;
+  height: auto;
+}
+
+.membership-block h2 {
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 28px;
+}
+
+.membership-block p {
+  width: 212px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.membership button {
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #c271ff;
+  padding: 16px 24px 16px 24px;
+  border: none;
+  border-radius: 9999px;
+  margin-bottom: 24px;
+}
+
+/* FAQ SECCTION */
+
+.faq-section {
+  height: 860px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.rows-blocks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 707px;
+  width: 920px;
+}
+
+.faq-section h1 {
+  font-size: 60px;
+  font-weight: normal;
+}
+
+.faq-block {
+  width: 350px;
+  height: 242px;
+}
+
+.faq-block h2 {
+  font-size: 16px;
+}
+
+.faq-block p {
+  font-size: 14px;
+}
+
+/* FOOTER SECTION */
+
+.footer-section {
+  height: 249px;
+  font-family: "Source Sans Pro", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #071629;
+}
+
+.footer-content-container {
+  padding-top: 70px;
+  padding-bottom: 20px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  width: 1109px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-content-container p {
+  color: #ffffff;
+  opacity: 0.33;
 }
